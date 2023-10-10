@@ -1,11 +1,8 @@
-import ReactDOM  from 'react-dom';
+import ReactDOM from 'react-dom';
 import React from 'react';
 
-import './index.css';
-import Primeiro from './components/basicos/Primeiro';
+import App from './App';
 
-ReactDOM.render(
-    <div>
-        <Primeiro />
-    </div>
-, document.querySelector('#root'))
+import './index.css';
+
+ReactDOM.render(<App />, document.querySelector('#root'));
